@@ -6,7 +6,7 @@ fun main() {
     println("=========================")
 
 
-    println("\nMasukkan Diameter Lingkaran: ")
+    print("\nMasukkan Diameter Lingkaran: ")
     val diameter: Double = readLine()?.toDouble()!!
 
     var luas: Double

@@ -4,10 +4,10 @@ fun main() {
     println("========================")
 
 
-    println("\nMasukkan alas: ")
+    print("\nMasukkan alas: ")
     val alas: Double = readLine()?.toDouble()!!
 
-    println("\nMasukkan tinggi: ")
+    print("Masukkan tinggi: ")
     val tinggi: Double = readLine()?.toDouble()!!
 
     var luas: Double

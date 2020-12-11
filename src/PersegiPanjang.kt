@@ -4,9 +4,9 @@ fun main() {
     println("Menghitung Luas Persegi Panjang")
     println("===============================")
 
-    println("\nMasukkan panjang persegi: ")
+    print("\nMasukkan panjang persegi: ")
     val panjang: Int = readLine()?.toInt()!!
-    println("\nMasukkan lebar persegi: ")
+    print("Masukkan lebar persegi: ")
     val lebar: Int = readLine()?.toInt()!!
     var luas: Int
     luas = panjang * lebar
